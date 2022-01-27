@@ -15,6 +15,22 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
+  plugins: [
+    // ... Your other plugins.
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        language: ["en", "zh"],
+        // ```
+        // When applying `zh` in language, please install `nodejieba` in your project.
+      },
+    ],
+  ],
 
   presets: [
     [
