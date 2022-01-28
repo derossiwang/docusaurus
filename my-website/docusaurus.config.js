@@ -22,6 +22,11 @@ const config = {
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
       {
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        removeDefaultStopWordFilter: false,
+        highlightSearchTermsOnTargetPage: false,
         // ... Your options.
         // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
@@ -59,6 +64,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      hideableSidebar: true,
       navbar: {
         title: 'JS SDK',
         hideOnScroll: true,   //自动隐藏和显示
