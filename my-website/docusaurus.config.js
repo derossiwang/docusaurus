@@ -61,6 +61,7 @@ const config = {
     ({
       navbar: {
         title: 'JS SDK',
+        hideOnScroll: true,   //自动隐藏和显示
         logo: {
           alt: 'JS SDK Logo',
           src: 'img/logo.svg',
