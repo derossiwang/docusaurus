@@ -78,6 +78,12 @@ const config = {
             position: 'left',
             label: 'APP SDK文档',
           },
+          {
+            type: 'doc',
+            docId: 'testgame/testgame', // 测试测试
+            position: 'left',
+            label: '测试用',
+          },
         ],
       },
       footer: {
