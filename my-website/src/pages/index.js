@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2022-01-27 17:35:20
- * @LastEditTime: 2022-01-28 09:45:19
+ * @LastEditTime: 2022-01-28 11:49:33
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \my-website\src\pages\index.js
@@ -37,7 +37,6 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>

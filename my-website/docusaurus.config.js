@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'JS SDK',
   tagline: 'JS SDK文档',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
