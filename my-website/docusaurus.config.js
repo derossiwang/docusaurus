@@ -67,23 +67,20 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'minigame/minigame', // 小游戏主页路径
-            position: 'left',
             label: ' 小游戏SDK文档',
+            to: 'minigame/',
+            position: 'left',
           },
           {
-            type: 'doc',
-            docId: 'appgame/appgame', // app主页路径
-            position: 'left',
             label: 'APP SDK文档',
+            to: 'appgame/',
+            position: 'left',
           },
           {
-            type: 'doc',
-            docId: 'testgame/testgame', // 测试测试
-            position: 'left',
             label: '测试用',
-          },
+            to: 'testgame/',
+            position: 'left',
+          }
         ],
       },
       footer: {
