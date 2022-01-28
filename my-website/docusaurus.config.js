@@ -28,8 +28,11 @@ const config = {
         language: ['en', 'zh'],
         // ```
         // When applying `zh` in language, please install `nodejieba` in your project.
+
         // 因为调成了仅文档模式，doc的根路由变了
-        docsRouteBasePath: "/"
+        docsRouteBasePath: "/",
+        searchResultLimits: 8,  // 最多搜索结果
+        searchResultContextMaxLength: 50  // 搜索结果显示的最多字数+...
       },
     ],
   ],
