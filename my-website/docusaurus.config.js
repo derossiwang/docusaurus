@@ -16,7 +16,9 @@ const config = {
   organizationName: '多比特JS组', // Usually your GitHub org/user name.
   projectName: 'JS SDK文档', // Usually your repo name.
   plugins: [
-    // ... Your other plugins.
+    // 图片放大缩小插件
+    'plugin-image-zoom',
+    // 本地搜索插件
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
       {
@@ -86,6 +88,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      zoomSelector: '.markdown img',
     }),
 };
 
