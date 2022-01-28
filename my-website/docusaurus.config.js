@@ -33,8 +33,8 @@ const config = {
 
         // 因为调成了仅文档模式，doc的根路由变了
         docsRouteBasePath: "/",
-        searchResultLimits: 8,  // 最多搜索结果
-        searchResultContextMaxLength: 50  // 搜索结果显示的最多字数+...
+        searchResultLimits: 10,  // 最多搜索结果
+        searchResultContextMaxLength: 60  // 搜索结果显示的最多字数+...
       },
     ],
   ],
