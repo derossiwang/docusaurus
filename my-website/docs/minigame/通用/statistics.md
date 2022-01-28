@@ -29,7 +29,7 @@ sidebar_position: 6
 
 ### 次数统计
 次数统计直接调用上报API即可。
-``` js{9}
+``` js {8}
 // StartScene.js 
 
 const Stat = require("Statistics");
@@ -46,7 +46,7 @@ cc.Class({
 
 ### 时间统计
 时间统计需调用两次上报API。计时开始和结束分别调用一次。
-``` js{8,11}
+``` js {8,11}
 // StartScene.js 
 
 const Stat = require("Statistics");
@@ -66,7 +66,7 @@ cc.Class({
 ### 用户来源统计
 将来源统计模块引入到脚本，调用API即可获取来源信息并上报(该方法整个游戏周期只调用一次)。
 
-``` js{9}
+``` js {9}
 // StartScene.js 
 
 const NewlyIncreased = require("NewlyIncreased");
